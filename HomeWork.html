@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+    <head>
+        <meta charset="UTF-8">
+        <title>Home Work</title>
+        <link rel="stylesheet" href="HomeWork.css">
+    </head>
+    <body>
+        <h1>Форма регистрации</h1>
+        <form>
+            <div class="inputField">
+                <label for="name">Имя</label>
+                <input name="name" id="name" type="text" placeholder="Имя" required >
+            </div>
+            <div class="inputField">
+                <label for="Email">Email</label>
+                <input name="Email" id="Email" type="email" placeholder="Email" size="50" required >
+            </div>
+            <div class="inputField">
+                <label for="password">Пароль</label>
+                <input name="password" id="password" type="password" placeholder="Пароль" required >
+            </div>
+            <div>
+                <p>Пол:</p>
+                <input name="gender" id="genderF" type="radio" >
+                <label for="genderF">Женский</label>
+                <input name="gender" id="genderM" type="radio" >
+                <label for="genderM">Мужской</label>
+            </div>
+            <div class="checkbox">
+                <p>В каких messenger с вами можно связаться ?</p>
+                <div>
+                    <input name="checkbox" id="checkbox-1" type="checkbox">
+                    <label for="checkbox-1">Gmail</label>
+                </div>
+                <div>
+                    <input name="checkbox" id="checkbox-2" type="checkbox">
+                    <label for="checkbox-2">Skype</label>
+                </div>
+                <div>
+                    <input name="checkbox" id="checkbox-3" type="checkbox">
+                    <label for="checkbox-3">Viber</label>
+                </div>
+                <div>
+                    <input name="checkbox" id="checkbox-4" type="checkbox">
+                    <label for="checkbox-4">Telegram</label>
+                </div>
+                <div>
+                    <input name="checkbox" id="checkbox-5" type="checkbox">
+                    <label for="checkbox-5">Другое</label>
+                </div>
+            </div>
+            <div class="buttonBox">
+                <input class="button" name="Очистить" type="reset" >
+                <button class="button" type="submit">Отправить</button>
+            </div>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,62 @@
+* {
+    font-family: sans-serif;
+    color: navy;
+}
+body {
+    background-color: snow;
+}
+div {
+    margin: 10px;
+}
+h1 {
+    font-family: "Courier New", sans-serif;
+    text-align: center;
+}
+
+form {
+    display: inline-block;
+    position: relative;
+    left: 35%;
+    border: 2px solid darkblue;
+    background-color: white;
+
+}
+.inputField > input {
+    background-color: aliceblue;
+    border: 1px dashed navy;
+    margin-left: 15px;
+    height: 30px;
+    border-radius: 6px;
+}
+input:invalid {
+    border: 2px solid #b90019;
+    background-color: rgba(225 , 0 ,0 , 0.15);
+}
+.buttonBox {
+    margin-top: 20px;
+}
+.buttonBox > button {
+    position: relative;
+    left: 230px;
+}
+.button {
+    width: 100px;
+    height: 25px;
+    background-color: slateblue;
+    border-radius: 20px;
+    box-shadow: 0 5px 4px rgba(0, 0, 0, 0.25);
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    cursor: pointer;
+}
+
+.checkbox > div {
+    margin: 5px;
+}
+p {
+    font-size: 20px;
+    margin: 10px;
+}
+
+
